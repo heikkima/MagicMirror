@@ -69,10 +69,17 @@ var config = {
 			position: "bottom_bar",
 			config: {
 				feeds: [
+					
+					 {
+                                                title: "Kuvastin Blog",
+                                                url: "http://kuvastinblog.wordpress.com/?feed=rss"
+                                        },
 					{
-						title: "Helsingin Sanomat",
-						url: "http://www.hs.fi/rss/teasers/etusivu.xml"
-					}
+                                                title: "Kuvastin Github",
+                                                url: "https://github.com/heikkima/kuvastin/commits/master.atom"
+                                        }
+
+
 				],
 				showSourceTitle: true,
 				showPublishDate: true
