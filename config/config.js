@@ -57,6 +57,15 @@ var config = {
 			position: "lower_third"
 		},
 		{
+			module: "MMM-ImagesPhotos",
+			position: "top_center",
+			config: {
+				opacity: 0.9,
+				animationSpeed: 500,
+				updateInterval: 5000,
+			}
+		},
+		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
