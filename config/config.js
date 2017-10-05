@@ -33,19 +33,6 @@ var config = {
 			position: "top_left"
 		},
 		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						symbol: "calendar-check-o ",
-						url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
-					}
-				]
-			}
-		},
-		{
 			module: "currentweather",
 			position: "top_right",
 			config: {
@@ -63,6 +50,11 @@ var config = {
 				locationID: "658225",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "11736523ac00412c4c671a55ecd95344"
 			}
+		},
+		{
+
+			module: "compliments",
+			position: "lower_third"
 		},
 		{
 			module: "newsfeed",
