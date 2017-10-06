@@ -27,11 +27,11 @@ body {
  */
 
 .dimmed {
-  color: #666;
+  color: #fff;
 }
 
 .normal {
-  color: #999;
+  color: #fff;
 }
 
 .bright {
@@ -39,18 +39,18 @@ body {
 }
 
 .xsmall {
-  font-size: 15px;
+  font-size: 30px;
   line-height: 20px;
 }
 
 .small {
-  font-size: 20px;
+  font-size: 50px;
   line-height: 25px;
 }
 
 .medium {
-  font-size: 30px;
-  line-height: 35px;
+  font-size:30px;
+  line-height: 50px;
 }
 
 .large {
@@ -114,11 +114,11 @@ sup {
  */
 
 .module {
-  margin-bottom: 30px;
+  margin-bottom:30px;
 }
 
 .region.bottom .module {
-  margin-top: 30px;
+  margin-top: 130px;
   margin-bottom: 0;
 }
 
