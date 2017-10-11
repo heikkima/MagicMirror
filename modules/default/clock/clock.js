@@ -17,7 +17,7 @@ Module.register("clock",{
 		clockBold: false,
 		showDate: true,
 		showWeek: false,
-		dateFormat: "dddd, LL",
+		dateFormat: "DD.MM.YYYY <br> dddd",
 
 		/* specific to the analog clock */
 		analogSize: "200px",

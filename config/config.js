@@ -52,7 +52,6 @@ var config = {
 			}
 		},
 		{
-
 			module: "compliments",
 			position: "lower_third"
 		},
@@ -76,8 +75,8 @@ var config = {
                                                 url: "http://kuvastinblog.wordpress.com/?feed=rss"
                                         },
 					{
-                                                title: "Kuvastin Github",
-                                                url: "https://github.com/heikkima/kuvastin/commits/master.atom"
+                                                title: "HS tuoreimmat uutiset",
+                                              	url: "https://www.hs.fi/rss/tuoreimmat.xml"
                                         }
 
 
