@@ -2,5 +2,5 @@
 # Projektinamme on kehittää peiliä eteenpäin
 # https://kuvastinblog.wordpress.com/
 
-# Asenna tarvittavat ohjelmat peilille komennolla "bash asennus"
+# Asenna tarvittavat ohjelmat peilille komennolla "sudo bash asennus"
 # Peili käynnistyy komennolla "npm start" (saattaa vaatia sudo:a)
