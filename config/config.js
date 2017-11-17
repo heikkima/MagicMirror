@@ -75,8 +75,8 @@ var config = {
                                                 url: "http://kuvastinblog.wordpress.com/?feed=rss"
                                         },
 					{
-                                                title: "HS tuoreimmat uutiset",
-                                              	url: "https://www.hs.fi/rss/tuoreimmat.xml"
+                                                title: "YLE Headlines",
+                                              	url: "https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss"
                                         }
 
 
