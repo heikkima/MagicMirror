@@ -4,3 +4,7 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash
 sudo apt-get install -y nodejs
 npm install
 npm install
+
+echo "MMM-ImaesPhotos installation starting"
+git clone https://github.com/roramirez/MMM-ImagesPhotos ~/kuvastin/modules/MMM-ImagesPhotos
+cp ~/kuvastin/snipe.PNG ~/kuvastin/modules/MMM-ImagesPhotos/uploads
