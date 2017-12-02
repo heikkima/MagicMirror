@@ -74,10 +74,39 @@ var config = {
                                                 title: "Kuvastin Blog",
                                                 url: "http://kuvastinblog.wordpress.com/?feed=rss"
                                         },
+                                        {
+						title: "Lauri Alho Wordpress",
+						url:"https://laurialho.wordpress.com/?feed=rss"
+					},
 					{
-                                                title: "YLE Headlines",
-                                              	url: "https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss"
-                                        }
+						title: "Jaakko Jämsä Wordpress",
+						url:"https://jaakkojamsa.wordpress.com/?feed=rss"
+					},
+					{
+						title: "Teemu Kurki Github",
+						url: "https://github.com/TeemuKurki/LinuxKeskitettyHallinta/commits/master.atom"
+					},
+					{
+						title: "Miikka Huuskonen",
+						url: "https://miikkahuuskonen.wordpress.com/?feed=rss"
+					},
+					{
+						title: "Teemu Kurki Github",
+						url: "https://github.com/TeemuKurki/LinuxKeskitettyHallinta/commits/master.atom"
+					},
+					{
+						title: "Guichly Hessen Wordpress",
+						url:"https://guichlyhessen.wordpress.com/?feed=rss"
+					},
+					{
+						title: "Miikka Alatalo Github",
+						url: "https://github.com/Miikka-Alatalo/puppet/commits/master.atom"
+					},
+					{
+						title: "Juha Pitkänen Wordpress",
+						url: "https://jwpitkanen.wordpress.com/?feed=rss"
+					}
+
 
 
 				],
