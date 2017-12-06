@@ -8,3 +8,7 @@ npm install
 echo "MMM-ImaesPhotos installation starting"
 git clone https://github.com/roramirez/MMM-ImagesPhotos ~/kuvastin/modules/MMM-ImagesPhotos
 cp ~/kuvastin/snipe.PNG ~/kuvastin/modules/MMM-ImagesPhotos/uploads
+
+sudo apt-get install -y xscreensaver omxplayer
+sudo chmod +x /home/pi/kuvastin/screensaver/video_screensaver.sh
+cp /home/pi/kuvastin/scnreesaver/autostart ~/.config/lxsession/LXDE-pi/autostart
