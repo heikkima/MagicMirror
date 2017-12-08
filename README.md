@@ -28,7 +28,3 @@ Raaka-aineemme:
 4. Näytönsäästäjä vaatii manuaalisen käynnistyksen ensimäisellä kerralla.Käytä komentoa "xscreensaver-demo"
 5. xscreensaver- valikosta muuta "Mode" - "Blank Screen Only".Voit muuttaa aikaa jolloin peili menee nukkumaan xscreensaverin "Blank After" asetuksesta
   
-# Näytönsäästäjä vaatii manuaalisen käynnistyksen ensimäisellä kerralla.
-# "xscreensaver-demo"
-# xscreensaver- valikosta muuta "Mode" - "Blank Screen Only"
-# Voit muuttaa aikaa jolloin peili menee nukkumaan xscreensaverin "Blank After" asetuksesta 
