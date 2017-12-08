@@ -20,7 +20,7 @@ Module.register("newsfeed",{
 		],
 		showSourceTitle: true,
 		showPublishDate: true,
-		showDescription: false,
+		showDescription: true,
 		wrapTitle: true,
 		wrapDescription: true,
 		hideLoading: false,

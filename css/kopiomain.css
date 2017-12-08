@@ -28,7 +28,7 @@ body {
  */
 
 .dimmed {
-  color: #00ffff;
+  color: #fff;
 }
 
 .normal {
@@ -36,7 +36,7 @@ body {
 }
 
 .bright {
-  color: #00ffff;
+  color: #fff;
 }
 
 .xsmall {

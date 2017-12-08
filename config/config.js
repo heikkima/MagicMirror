@@ -53,7 +53,7 @@ var config = {
 		},
 		{
 			module: "compliments",
-			position: "lower_third"
+			position: "bottom_bar"
 		},
 		{
 			module: "MMM-ImagesPhotos",
@@ -66,7 +66,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "bottom_bar",
+			position: "lower_third",
 			config: {
 				feeds: [
 					
