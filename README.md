@@ -21,9 +21,12 @@ Raaka-aineemme:
 4. Nauloja
 5. Ruuveja
 6. Paljon kuumaliimaa ja eristysteippiä
-# Asenna tarvittavat ohjelmat peilille komennolla "bash asennus"
-# Peili käynnistyy komennolla "npm start" (saattaa vaatia sudo:a)
-
+# Asennus
+1. Asenna git ja kloonaa Repositorymme komennolla "git clone https://github.com/heikkima/kuvastin.git"
+2. Aja asennus bash komennolla "bash asennus" jos tämä ei toimi kokeile poistaa kansio ja kloonauksen jälkeen aja komento "npm install && npm start"
+3. Näytönsäästäjä vaatii manuaalisen käynnistyksen ensimäisellä kerralla.Käytä komentoa "xscreensaver-demo"
+4. xscreensaver- valikosta muuta "Mode" - "Blank Screen Only".Voit muuttaa aikaa jolloin peili menee nukkumaan xscreensaverin "Blank After" asetuksesta
+  
 # Näytönsäästäjä vaatii manuaalisen käynnistyksen ensimäisellä kerralla.
 # "xscreensaver-demo"
 # xscreensaver- valikosta muuta "Mode" - "Blank Screen Only"
