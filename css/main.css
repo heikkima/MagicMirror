@@ -28,7 +28,7 @@ body {
  */
 
 .dimmed {
-  color: #00ffff;
+  color: #fff;
 }
 
 .normal {
@@ -36,17 +36,17 @@ body {
 }
 
 .bright {
-  color: #00ffff;
+  color: #fff;
 }
 
 .xsmall {
   font-size: 75px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .small {
-  font-size: 50px;
-  line-height: 25px;
+  font-size: 45px;
+  line-height: 50px;
 }
 
 .medium {
