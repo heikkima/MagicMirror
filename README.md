@@ -1,7 +1,7 @@
-#Projektin tausta
+# Projektin tausta
 ## Alkuperäisen projektin luoja on MichMich (https://github.com/MichMich/MagicMirror)
 ### Projektinamme on kehittää peiliä eteenpäin
-##Projektimme kotisivu josta löydät tieto työmme vaiheista ja etenemisestä
+## Projektimme kotisivu josta löydät tieto työmme vaiheista ja etenemisestä
 https://kuvastinblog.wordpress.com/
 # Tarvikkeet
 ## Elektroniikka
