@@ -34,8 +34,17 @@ xscreensaver asentui samalla kun ajoit asennus bashin. Käytämme projektissamme
 Tämä ohejelma ei ole sidoksissa peili ohjelmistoon vaan käytimme python koodia, joka pyörii terminaalista käsin. 
 Tarvitset Arduinon ja SHARP (GP2Y0A21YK0F)- analogisen etäisyys sensorin. Arduino liitetään Raspberry Pi:hin serial kaapelilla. Ohjeet sensorin yhdistäminen Arduinoon löytyy tämän tiedoston alapuolelta.  
 
-Arduino sketch sijaitsee kuvastin/screensaver/kuvastin.ino
-1. 
+Arduino sketch pitää uploadaa Arduinoon jotta liiketunnistin toimii
+1. Käynnistä Arduino komennolla "arduino"
+2. Valitse ylhäältä File -> Open
+3. Valitse kuvastin.ino kansiosta kuvastin/screensaver/
+3. Klikkaa Arduino- ikkunan vasen-ylä-kulmassa sijaitsevaa nuolta "Upload"
+
+Liiketunnistimen käynnistäminen
+1. Käynnistä peili kansiosta kuvastin/ - Aja komento "npm start"
+2. Avaa uusi terminaali ja navigoi kansioon kuvastin/screensaver/
+3. Aja komento "python motionsensor.py"
+
 ### Arduinon pinni liitännät
 1. Kytkevirtajohto 5v reikään
 2. Toinen groundiin 
