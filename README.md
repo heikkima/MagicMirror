@@ -31,8 +31,12 @@ xscreensaver asentui samalla kun ajoit asennus bashin. Käytämme projektissamme
 1. Näytönsäästäjä vaatii manuaalisen käynnistyksen ensimäisellä kerralla.Käytä komentoa "xscreensaver-demo"
 2. xscreensaver- valikosta muuta "Mode" - "Blank Screen Only".Voit muuttaa aikaa jolloin peili menee nukkumaan xscreensaverin "Blank After" asetuksesta
 ## Liiketunnistin
-Tämä ohejelma ei ole sidoksissa peili ohjelmistoon vaan käytimme python koodia, joka pyörii terminaalista käsin.
-### Pinni liitännät
+Tämä ohejelma ei ole sidoksissa peili ohjelmistoon vaan käytimme python koodia, joka pyörii terminaalista käsin. 
+Tarvitset Arduinon ja SHARP (GP2Y0A21YK0F)- analogisen etäisyys sensorin. Arduino liitetään Raspberry Pi:hin serial kaapelilla. Ohjeet sensorin yhdistäminen Arduinoon löytyy tämän tiedoston alapuolelta.  
+
+Arduino sketch sijaitsee kuvastin/screensaver/kuvastin.ino
+1. 
+### Arduinon pinni liitännät
 1. Kytkevirtajohto 5v reikään
 2. Toinen groundiin 
 3. Ja datakaapeli A0 reikään
