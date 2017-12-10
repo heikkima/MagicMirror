@@ -16,5 +16,8 @@ cp /home/pi/kuvastin/screensaver/autostart ~/.config/lxsession/LXDE-pi/autostart
 sudo mv /boot/config.txt /boot/config.txt.backup
 sudo cp /home/pi/kuvastin/screenrotation/config.txt /boot/config.txt
 
+echo "Alexa installation"
+git clone https://github.com/alexa/alexa-avs-sample-app.git
+
 
 sudo reboot
