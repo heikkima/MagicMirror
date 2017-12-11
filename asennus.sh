@@ -16,5 +16,11 @@ cp /home/pi/kuvastin/screensaver/autostart ~/.config/lxsession/LXDE-pi/autostart
 sudo mv /boot/config.txt /boot/config.txt.backup
 sudo cp /home/pi/kuvastin/screenrotation/config.txt /boot/config.txt
 
+git clone https://github.com/AdamMoses-GitHub/MMM-TweetsByTimelineOrList.git /home/pi/kuvastin/modules/MMM-TweetsByTimelineOrList
+cd /home/pi/kuvastin/modules/MMM-TweetsByTimelineOrList/ && npm install twitter && npm install
+
+echo "Alexa installation"
+git clone https://github.com/alexa/alexa-avs-sample-app.git
+
 
 sudo reboot

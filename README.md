@@ -12,7 +12,7 @@ https://kuvastinblog.wordpress.com/
 5. Puhelimen laturi ja latauspiuha
 6. Näyttö, mielellään LED jotta tekstit näkyvät lasinkin läpi
 ## Raaka-aineet kehystä varten
-Tästä on monta eri ratkaisua ja internetistä löytyy monta kokoamis videota jotka ovat varmasti parempia kuin meidän.
+Tästä on monta eri ratkaisua ja internetistä löytyy monta videota kokoamiseen jotka ovat varmasti parempia kuin meidän.
 Jos haluat tietää tarkemmin kehyksemme kokoamisesta vieraile blogimme osoitteessa https://kuvastinblog.wordpress.com/2017/10/04/2-prototyypin-rakennus/
 Raaka-aineemme:
 1. Lautoja
@@ -50,26 +50,6 @@ Liiketunnistimen käynnistäminen
 2. Toinen groundiin 
 3. Ja datakaapeli A0 reikään
   
-## Asennus virtualbox:n kautta
-1. Asenna virtualbox (www.virtualbox.org/downloads)
-2. Asenna uusin virtualbox ja lataa siihen Extension pack(helpottaa työskentelyä kun saa ruudun resoluution vaihdettua.)
-3. Asenna ensin virtualbox ja sen jälkeen Extension pack. Lataa myös Raspbian desktop käyttöjärjestelmä.(https://www.raspberrypi.org/downloads/raspberry-pi-desktop/)
-4. Käynnista virtualbox ja valitse uusi kone.
-5. uusi kone kun luodaan valitaan nimeämisen jälkeen käyttöjärjestelmä.
-6. Raspberryn desktop versio on 32-bit debian järjestelmä.
-7. Seuraavaksi annamme raspille muistin määrän(käytimme itse 1gb, jotta olisi  realistinen aidon kanssa.).
-8. Sen jälkeen virtualbox kysyy luodaanko virtuaalinen kovalevy. Loimme virtuaalisen kovalevyn käyttämällä VHD tai VDI menetelmää.
-9. Menetelmän jälkeen virtualbox kysyy käytetäänkö dynaamista kokoa vai kiinteää kokoa(käytimme dynaamista.) kuinka suuren tilan annamme kovalevylle. Käytimme 8gb, koska se on ihan riittävästi tarpeisiimme.
-10. Kovalevyn luonnin jälkeen pääsemme valikkoon, josta valitsimme koneemme ja oikeallla hiiren napautuksella pääsemme asetuksiin. Asetuksista avaamme kohdan storage(varastotila) ja painamme CD-levyn kuvakkeen kohdalta lisää media. kuvake näyttää CD-levyltä, jossa on plus-merkki alalaidassa.
-11. Etsimme valmiiksi ladatun raspbianin .iso tiedoston ja valitsemme sen.
-12. Sen jälkeen voimme käynnistää virtuaalikoneen ja linuxin asennus alkaa.
-
-## Guest Additions asennus koneeseen.
-1. Kun olemme saaneet asennettua Linux:n koneeseen voimme aloittaa Guest additions asennuksen(**HUOM!!!**Virtualbox:n Extensions pack pitää olla asennettu ennen kuin Giest Additions toimii.). Aloitamme ajamalla komennot: **sudo apt-get update -y && sudo apt-get upgrade -y**
-2. Kirjaudu root käyttäjälle antamalla komento **sudo -s**. Asenna seuraavat paketit komennolla: **apt-get install build-essential module-assistant**
-3. Valmistele tietokoneesi kernelin muokkaamista varten komennolla: **m-a prepare**
-4. Mene Devices valikkoon ikkunan yläpalkissa ja valitse *Install Guest Additions*
-5. Menemme sitten asentaman lisäosat CD-levyltä. **cd /media/cdrom/** (*tässä voi olla usempi cdrom kansio ja niistä etsiä oikea.*)ja anna komento: **sh LinuxGuestAdditions.run** .
-6. Kone asentelee itsestään lisäosat ja tämän jälkeen aloittaa toimimaan, kun kone on käynnistetty uudestaan. **HUOM!!!** Konetta uudelleen käynnistäessä käytä virtuaalikoneen omaa valikkoa, muuten kone saattaa jäätyä korjaamattomaan tilaan uudelleen käynnistäessä.
-
-
+### Salt peiliin
+1. Aja komento : #sudo apt-get update && sudo apt-get upgrade# saadaksesi uusimmat turvallisuus päivitykset saltille tai lataa salt bootstrap(googlesta salt bootstrap)
+2. 
