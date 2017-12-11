@@ -50,4 +50,6 @@ Liiketunnistimen käynnistäminen
 2. Toinen groundiin 
 3. Ja datakaapeli A0 reikään
   
-
+### Salt peiliin
+1. Aja komento : #sudo apt-get update && sudo apt-get upgrade# saadaksesi uusimmat turvallisuus päivitykset saltille tai lataa salt bootstrap(googlesta salt bootstrap)
+2. 
