@@ -1,6 +1,6 @@
-
 !/bin/bash
 
+npm start&
 #Start companion service
 cd /home/pi/kuvastin/alexa-avs-sample-app/samples
 cd companionService && npm start&
