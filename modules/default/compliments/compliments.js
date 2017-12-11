@@ -13,7 +13,7 @@ Module.register("compliments", {
 		compliments: {
 			anytime: [
 				"Hey there sexy!",
-				"NEVER SETTLE"
+				"#NEVER SETTLE"
 			],
 			morning: [
 				"Good morning, handsome!",

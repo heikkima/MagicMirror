@@ -8,7 +8,7 @@ void loop() {
 
   Serial.println(sensorValue);
 
-  if (sensorValue >= 70) {
+  if (sensorValue >= 65) {
    delay(1000);
   }
   

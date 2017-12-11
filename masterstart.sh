@@ -14,4 +14,7 @@ echo "When finished "
 
 #Run the Wake Word Engine
 cd /home/pi/kuvastin/alexa-avs-sample-app/samples
-cd wakeWordAgent/src && ./wakeWordAgent -e sensory
+cd wakeWordAgent/src && ./wakeWordAgent -e sensory&
+
+#Movement sensor
+python /home/pi/kuvastin/screensaver/motionsensor.py
