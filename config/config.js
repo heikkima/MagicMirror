@@ -32,21 +32,21 @@ var config = {
 			module: "clock",
 			position: "top_left"
 		},
-		{
-		module: 'MMM-TweetsByTimelineOrList',
-		position: 'lower_third',
-		config: {
+//		{
+//		module: 'MMM-TweetsByTimelineOrList',
+//		position: 'lower_third',
+//		config: {
 		// visit the url below for the twitter keys/tokens
 		// https://dev.twitter.com/oauth/overview/application-owner-access-tokens
-			consumer_key: 'BdlrMnE9s8Qu8lCYjZAeVOhpe',
-			consumer_secret: '84vTgUGkNWuRA0PYvBJIxaTL7wgiLIfqS1AC68HvDGJnoZcJHa',
-			access_token_key: '939119042736115713-wzoLwoLPvWvMmBpVZhwnZ0BWkbed7V1',
-			access_token_secret: 'SEzEYAr5AxjwLbbd9vprN9mF92E7RyJ1zd3cR8creCp5k',
+//			consumer_key: 'BdlrMnE9s8Qu8lCYjZAeVOhpe',
+//			consumer_secret: '84vTgUGkNWuRA0PYvBJIxaTL7wgiLIfqS1AC68HvDGJnoZcJHa',
+//			access_token_key: '939119042736115713-wzoLwoLPvWvMmBpVZhwnZ0BWkbed7V1',
+//			access_token_secret: 'SEzEYAr5AxjwLbbd9vprN9mF92E7RyJ1zd3cR8creCp5k',
 		// set the username and either timeline or listname
-	        screenName: 'kuvastinblog',
-	        listToShow: 'TIMELINE',
-			}
-		},
+//	        screenName: 'kuvastinblog',
+//	        listToShow: 'TIMELINE',
+//			}
+//		},
 		{
 			module: "currentweather",
 			position: "top_right",
@@ -78,57 +78,56 @@ var config = {
 				animationSpeed: 500,
 				updateInterval: 5000,
 			}
-		}
-//		{
-//			module: "newsfeed",
-//			position: "lower_third",
-//			config: {
-//				feeds: [
-//					
-//					 {
-  //                                              title: "Kuvastin Blog",
-    //                                            url: "http://kuvastinblog.wordpress.com/?feed=rss"
-      //                                  },
-//                                        {
-//						title: "Lauri Alho Wordpress",
-//						url:"https://laurialho.wordpress.com/?feed=rss"
-//					},
-//					{
-//						title: "Jaakko Jämsä Wordpress",
-//						url:"https://jaakkojamsa.wordpress.com/?feed=rss"
-//					},
-//					{
-//						title: "Teemu Kurki Github",
-//						url: "https://github.com/TeemuKurki/LinuxKeskitettyHallinta/commits/master.atom"
-//					},
-//					{
-//						title: "Miikka Huuskonen",
-//						url: "https://miikkahuuskonen.wordpress.com/?feed=rss"
-//					},
-//					{
-//						title: "Teemu Kurki Github",
-//						url: "https://github.com/TeemuKurki/LinuxKeskitettyHallinta/commits/master.atom"
-//					},
-//					{
-//						title: "Guichly Hessen Wordpress",
-//						url:"https://guichlyhessen.wordpress.com/?feed=rss"
-//					},
-//					{
-//						title: "Miikka Alatalo Github",
-//						url: "https://github.com/Miikka-Alatalo/puppet/commits/master.atom"
-//					},
-//					{
-//						title: "Juha Pitkänen Wordpress",
-//						url: "https://jwpitkanen.wordpress.com/?feed=rss"
-//					}
-//
-//
-//
-//				],
-//				showSourceTitle: true,
-//				showPublishDate: true
-//			}
-//		},
+		},
+		{
+			module: "newsfeed",
+			position: "lower_third",
+			config: {
+				feeds: [
+					 {
+                                              title: "Kuvastin Blog",
+                                              url: "http://kuvastinblog.wordpress.com/?feed=rss"
+		                        },
+                                        {
+						title: "Lauri Alho Wordpress",
+						url:"https://laurialho.wordpress.com/?feed=rss"
+					},
+					{
+						title: "Jaakko Jämsä Wordpress",
+						url:"https://jaakkojamsa.wordpress.com/?feed=rss"
+					},
+					{
+						title: "Teemu Kurki Github",
+						url: "https://github.com/TeemuKurki/LinuxKeskitettyHallinta/commits/master.atom"
+					},
+					{
+						title: "Miikka Huuskonen",
+						url: "https://miikkahuuskonen.wordpress.com/?feed=rss"
+					},
+					{
+						title: "Teemu Kurki Github",
+						url: "https://github.com/TeemuKurki/LinuxKeskitettyHallinta/commits/master.atom"
+					},
+					{
+						title: "Guichly Hessen Wordpress",
+						url:"https://guichlyhessen.wordpress.com/?feed=rss"
+					},
+					{
+						title: "Miikka Alatalo Github",
+						url: "https://github.com/Miikka-Alatalo/puppet/commits/master.atom"
+					},
+					{
+						title: "Juha Pitkänen Wordpress",
+						url: "https://jwpitkanen.wordpress.com/?feed=rss"
+					}
+
+
+
+				],
+				showSourceTitle: true,
+				showPublishDate: true
+			}
+		},
 	]
 
 };

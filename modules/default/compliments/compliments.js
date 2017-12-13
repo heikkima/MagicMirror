@@ -13,7 +13,8 @@ Module.register("compliments", {
 		compliments: {
 			anytime: [
 				"Hey there sexy!",
-				"#NEVER SETTLE"
+				"#NEVER SETTLE",
+				"10% alennusta kaikista tilauksista - oneplus.net/fi/student-program"
 			],
 			morning: [
 				"Good morning, handsome!",
