@@ -69,7 +69,10 @@ Asennus bashin mukana latautuu myös alexa ohjelma. Jotta alexa toimisi tarvitse
 Peilin voi käynnistää ilman alexaa ja liiketunnistinta komennolla "npm start" /kuvastin kansion sisällä.
 Jos haluat käynnistää peilin liiketunnistimen kanssa käynnistä peili yllämainitulla komennolla ja avaa uusi terminal missä ajat komennon "python kuvastin/screensaver/motionsensor.py
 Mikäli haluat käynnistää peilin, liikettunnistimen ja alexan, aja komento "bash kuvastin/masterstart.sh"
-### Salt peiliin
+### Salt-minion peiliin (Vaihtoehtoinen - Optional)
 1. Aja komento : #sudo apt-get update && sudo apt-get upgrade# saadaksesi uusimmat turvallisuus päivitykset saltille tai lataa salt bootstrap(googlesta salt bootstrap)
-2. 
+2. Asenna salt-minion komennolla: #sudo apt-get install salt-minion# 
+3. Seuraavaksi vaihda #/etc/salt# hakemistoon(#cd /etc/salt/#) ja muokkaa minion tiedostoa (käytin itse nanoa) jossa poistamme #-merkin rivin edestä jonka haluamme otta käyttöön.
+   Poistamme #-merkin pois #master:# kohdasta ja lisäämme tekstin "salt" tilalle master palvelimen julkisen ip-osoitteen.
+4. Noin salt on lisätty peiliin ja voi ottaa yhteyttä master koneeseen.
 
