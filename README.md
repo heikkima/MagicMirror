@@ -1,8 +1,11 @@
 # Projektin tausta
 ## Alkuperäisen projektin luoja on MichMich (https://github.com/MichMich/MagicMirror)
-### Projektinamme on kehittää peiliä eteenpäin
-## Projektimme kotisivu josta löydät tieto työmme vaiheista ja etenemisestä
+## Projektinamme on kehittää peiliä eteenpäin
+### Projektimme kotisivu josta löydät tieto työmme vaiheista ja etenemisestä
 https://kuvastinblog.wordpress.com/
+### Ryhmänohjaajana toimi Tero Karvinen
+www.terokarvinen.com
+
 # Tarvikkeet
 ## Elektroniikka
 1. Raspberry Pi 3 model B
